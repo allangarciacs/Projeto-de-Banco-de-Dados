@@ -11,13 +11,28 @@ Plano de Ensino
     - MySql Workbench 
     - Sql Server Manegment Studio
 
+--  Aula 01  |  23/02/26  --
+
 Sistema de Informação/Conhecimento
    - Comjunto de partes/especies
     - Especies -> motivo da existência
     - Aspectos estruturais -> oque se quer guardar
 
+  - Requisitos
+    - Funcionais -> obrigatórios (tamanho do pé)
+    - Não-funcionais -> não obrigatórios (cor do tênis)
 
+          - Código fonte -> .c 
+        - Pacote       -> Conjunto de funções prontas
+      - Biblioteca   -> Conjunto de pacotes 
+    - Frame Work   -> Funcionalidades testadas e completas que podem ser embutidas no seu sistema
+  - API          -> Ferramenta de integração de serviços
 
+FRAMEWORKS
+  Model View Controller (MVC)
+    - Model: camada de persistência ou dados - Orientação a objetos mapeada em Banco de Dados (Mapeamento Objeto Relacional - MOR ou Object Relational Mapping - ORM)
+    - Controller: regra de negócio do sistema
+    - View: parte do usuário - front-end
 
---  Aula 01  |  23/02/26  --
+---    LER ->    HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.    ---
 
