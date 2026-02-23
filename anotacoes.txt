@@ -1,30 +1,23 @@
 Anotações da disciplina de Projeto de Banco de Dados
 
-| Função | Código | Resultado |
-|--------|--------|------------|
-| Título grande | # Título | Texto grande |
-| Título médio | ## Título | Texto médio |
-| Título menor | ### Título | Texto menor |
-| Negrito | **texto** | **texto** |
-| Itálico | *texto* | *texto* |
-| Negrito + Itálico | ***texto*** | ***texto*** |
-| Código inline | `codigo` | `codigo` |
-| Bloco de código | ```linguagem | bloco formatado |
-| Lista | - item | • item |
-| Lista numerada | 1. item | 1. item |
-| Linha horizontal | --- | linha divisória |
-| Link | [Texto](url) | link clicável |
-| Imagem | ![alt](url) | imagem |
-| Citação | > texto | bloco destacado |
-| Checkbox | - [ ] tarefa | ☐ tarefa |
-| Checkbox marcado | - [x] tarefa | ☑ tarefa |
-| Tabela | \| A \| B \| | tabela |
-| Emoji | :rocket: | 🚀 |
-| Comentário oculto | <!-- comentario --> | (não aparece) |
-| HTML grande | <h1>Texto</h1> | texto grande |
-| Centralizar | <p align="center">Texto</p> | texto centralizado |
+Plano de Ensino
+  - Modelagem - É identificar ou mapear requisitos estruturais do sistema
+    - Modelo lógico
+    - Modelo físico 
 
-**Plano de Ensino** 
-  Modelagem - É identificar ou mapear requisitos estruturais do sistema
+  - Linguagem SQL 
 
-  linguagem SQL
+  - Ferramentas
+    - MySql Workbench 
+    - Sql Server Manegment Studio
+
+Sistema de Informação/Conhecimento
+   - Comjunto de partes/especies
+    - Especies -> motivo da existência
+    - Aspectos estruturais -> oque se quer guardar
+
+
+
+
+--  Aula 01  |  23/02/26  --
+
