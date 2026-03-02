@@ -15,3 +15,7 @@ Dica
 | - Identificar os atributos (simples e o ou os identificadores)
 | - relaizar os relacionamentos 
 | - definir a cardinalidade
+
+Entidades -> Cliente | Objetivo | Treinamento | Exercício | GrupoMuscular 
+
+
