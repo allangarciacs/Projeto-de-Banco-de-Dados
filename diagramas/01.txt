@@ -1,0 +1,17 @@
+Um profissional de educação fisica necessita automatizar, via informaçizaçao, a sua agenda
+de atendimento de alunos do personal trainer. 
+O sistema monitora os clientes (nome, email e telefone) categoria de cliente (nome) que 
+tem relação com os objetivos. Os treinamentos são compostos por exercícios de diferentes
+categorias. Por exemplo, remada baixa tem relaçao com a categoria costas, enquanto o supino 
+reto com a categoria peito.
+Dessa forma o exercicio tem relação com um grupo muscular. Mas para o primeiro momento um 
+aluno ou cliente tem um horário/dia com esse professor. Um aluno/cliente pode ter vários 
+encontros com esse professor e cada encontro tem uma relação com um treinamneto montado ou 
+criado. E que por sua vez esse treinamento tem um conjunto de exercícios.
+
+Dica
+1- Dividir em fases:
+| - Identificar as entidades/tabelas 
+| - Identificar os atributos (simples e o ou os identificadores)
+| - relaizar os relacionamentos 
+| - definir a cardinalidade
