@@ -36,3 +36,20 @@ FRAMEWORKS
 
 ---    LER ->    HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.    ---
 
+     Min --- Máx
+Aluno 0 ... N (N significa muitos)
+  |
+  |
+  |
+Curso 1 ... 1
+
+
+
+
+
+
+
+
+
+
+
