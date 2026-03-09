@@ -3,4 +3,4 @@ Um professor de padel precisa automatizar via informatização, os jogos e trein
 ser em um dia, uma hora, em 1 quadra e de uma categoria. O professor lança um jogo informando o dia,
 a hora, a quadra, o clube, a categoria do jogo treino e os atletas que compõem esse jogo.
 
-https://app.brmodeloweb.com/#!/main
+https://app.brmodeloweb.com/#!/main .
