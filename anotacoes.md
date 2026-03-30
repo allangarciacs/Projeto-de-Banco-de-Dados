@@ -43,6 +43,11 @@ Aluno 0 ... N (N significa muitos)
   |
 Curso 1 ... 1
 
+MySQL WorkBench 
+  - Gestão de Modelos (DIAGRAMA)
+    - Gerar Scrips SQL
+    - Gerar esquema de Banco de Dados
+
 
 
 
