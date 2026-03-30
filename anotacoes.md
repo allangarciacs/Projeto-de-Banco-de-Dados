@@ -47,6 +47,8 @@ MySQL WorkBench
   - Gestão de Modelos (DIAGRAMA)
     - Gerar Scrips SQL
     - Gerar esquema de Banco de Dados
+   
+PROVA: https://unifrabr.sharepoint.com/:b:/s/2026-1ProjetodeBancodeDados480/IQBIaE2gEwkNS4KPW7QFrOA_AXXyAwS9wfT8Gl72k2DtT-E?e=EeJ3P3
 
 
 
