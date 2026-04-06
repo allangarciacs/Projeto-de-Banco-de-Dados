@@ -52,17 +52,17 @@ LER ->    HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato,
 
 ---
 
-##**Conceitos:**
-    - Entidade ou tabela
-        - Atributo: chaves primárias e estrangeiras
-        - Relacionamento:
-            - associação
-            - agregação/composição: todo e parte de (entidades fracas)
-            - herança: é um tipo de
-        - **Cardinalidade:** indica a quantidade de relação de objetos de uma tabela com outra 
-            1:1 -> a chave estrangeira pode ficar em qualquer uma das tabelas.
-            1:n -> a chave estrangeira fica do lado do n
-            n:n -> uma terceira tabela é criada contendo duas chaves estrangeiras (uma de cada tabela
+## **Conceitos:**
+- Entidade ou tabela
+  - Atributo: chaves primárias e estrangeiras
+    - Relacionamento:
+      - associação
+      - agregação/composição: todo e parte de (entidades fracas)
+      - herança: é um tipo de
+   - **Cardinalidade:** indica a quantidade de relação de objetos de uma tabela com outra 
+      1:1 -> a chave estrangeira pode ficar em qualquer uma das tabelas.
+      1:n -> a chave estrangeira fica do lado do n
+      n:n -> uma terceira tabela é criada contendo duas chaves estrangeiras (uma de cada tabela
                 
    - substantivo que categorize/classifique algo vira entidade
    - substantivo que qualifique algo vira atributo
