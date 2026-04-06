@@ -2,6 +2,11 @@
 # Anotações da disciplina de Projeto de Banco de Dados
 ---
 
+## BD x SGDB
+### BD (Banco de dados)
+- Tabelas
+
+
 ## Modelagem - É identificar ou mapear requisitos estruturais do sistema
 ### Modelo conceitual 
 - visão de negócio
@@ -38,12 +43,14 @@
 - Não-funcionais  -> não obrigatórios (cor do tênis)
 
 ### Definições
+<pre>
 - Código fonte    -> .c
 - Pacote          -> Conjunto de funções prontas
 - Biblioteca      -> Conjunto de pacotes
 - Frame Work      -> Funcionalidades testadas e completas que podem ser embutidas no seu sistema
 - API             -> Ferramenta de integração de serviços
-
+</pre>
+  
 ---
 
 ## FRAMEWORKS
