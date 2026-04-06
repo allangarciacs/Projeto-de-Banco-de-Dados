@@ -13,8 +13,8 @@
   - Manipulação de dados
 
 ## Modelagem - É identificar ou mapear requisitos estruturais do sistema
-<pre>
 ### Modelo conceitual 
+<pre>
 - visão de negócio
 - diagrama DER
 - independe da tecnologia
