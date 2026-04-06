@@ -1,11 +1,8 @@
 ---
-
 # Anotações da disciplina de Projeto de Banco de Dados
-
 ---
 
 ## Modelagem - É identificar ou mapear requisitos estruturais do sistema
-
 ### Modelo conceitual 
 - visão de negócio
 - diagrama DER
@@ -32,7 +29,6 @@
 ---
 
 ## Sistema de Informação/Conhecimento
-
 - Comjunto de partes/especies
   - Especies             -> motivo da existência
   - Aspectos estruturais -> oque se quer guardar
@@ -41,6 +37,7 @@
 - Funcionais      -> obrigatórios (tamanho do pé)
 - Não-funcionais  -> não obrigatórios (cor do tênis)
 
+### Definições
 - Código fonte    -> .c
 - Pacote          -> Conjunto de funções prontas
 - Biblioteca      -> Conjunto de pacotes
@@ -50,9 +47,7 @@
 ---
 
 ## FRAMEWORKS
-
 ### Model View Controller (MVC)
-
 - Model: camada de persistência ou dados - Orientação a objetos mapeada em Banco de Dados (Mapeamento Objeto Relacional - MOR ou Object Relational Mapping - ORM)
 - Controller: regra de negócio do sistema
 - View: parte do usuário - front-end
@@ -60,7 +55,6 @@
 ---
 
 ## Conceitos
-
 ### Entidade ou tabela
 - Atributo: chaves primárias e estrangeiras
 - Relacionamento:
@@ -69,13 +63,11 @@
   - herança: é um tipo de
 
 ### Cardinalidade - Indica a quantidade de relação de objetos de uma tabela com outra
-
 - 1:1 -> a chave estrangeira pode ficar em qualquer uma das tabelas.
 - 1:n -> a chave estrangeira fica do lado do n
 - n:n -> uma terceira tabela é criada contendo duas chaves estrangeiras (uma de cada tabela
 
 ### Observações
-
 - substantivo que categorize/classifique algo vira entidade
 - substantivo que qualifique algo vira atributo
 - verbo ou as expressões 'é um tipo de', 'é parte de', 'tem relação com' viram relacionamentos
@@ -87,7 +79,6 @@
 ---
 
 ## MySQL WorkBench
-
 - Gestão de Modelos (DIAGRAMA)
 - Gerar Scrips SQL
 - Gerar esquema de Banco de Dados
