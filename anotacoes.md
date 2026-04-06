@@ -6,8 +6,14 @@
 ### BD (Banco de dados)
 - Tabelas
 
+### SGDB (Sistema Gerenciador de Banco de Dados)
+- Serviços
+  - Restrições de integridade
+  - Gestão de transações
+  - Manipulação de dados
 
 ## Modelagem - É identificar ou mapear requisitos estruturais do sistema
+<pre>
 ### Modelo conceitual 
 - visão de negócio
 - diagrama DER
@@ -15,6 +21,7 @@
 - só entidades, atributos (chave primária) e relacionamentos
 - chave primária: pode ser um ou mais atributos que garantem unicidade na tabela/entidade
 - usado para ser apresentado ao cliente
+</pre>
 
 ### Modelo lógico
 - traduz o modelo conceitual para estruturas mais próximas do banco relacional
