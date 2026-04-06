@@ -1,17 +1,29 @@
 Anotações da disciplina de Projeto de Banco de Dados
 
-Plano de Ensino
-  - Modelagem - É identificar ou mapear requisitos estruturais do sistema
-    - Modelo lógico
-    - Modelo físico 
+---
 
-  - Linguagem SQL 
+## **Modelagem** - É identificar ou mapear requisitos estruturais do sistema
+    
+    - Modelo conceitual - visão de negócio - Diagrama DER
+        - independe da tecnologia
+        - só entidades, atributos (chave primária) e relacionamentos
+        - chave primária: pode ser um ou mais atributos que garantem unicidade na tabela/entidade
+        - usado para ser apresentado ao cliente
 
-  - Ferramentas
-    - MySql Workbench 
-    - Sql Server Manegment Studio
+    - Modelo lógico - Traduz o modelo conceitual para estruturas mais próximas do banco relacional
+        - tabela, atributos, chaves
+        - transcrição das entidades em tabelas, nome de atributos mais relacionados com nomes de atributos no contexto de programação
+          - destaca as chaves estrangeiras 
+            - é um atributo de uma tabela que visita outra tabela
+            - para ser chave estrangeira, na tablea de origem ela precisa ser chave primária
+        - por exemplo, atributo transcrito do conceitual para o lógico
+    
+      - Modelo físico: é o modelo pensando em tecnologia ou linguagem SQL
+        - implemntação no SGDB escolhido
+        - define os tipos dos atributos
+        - se há atributos não nulos ou em branco
 
---  Aula 01  |  23/02/26  --
+---
 
 Sistema de Informação/Conhecimento
    - Comjunto de partes/especies
@@ -48,7 +60,7 @@ MySQL WorkBench
     - Gerar Scrips SQL
     - Gerar esquema de Banco de Dados
    
-PROVA: https://unifrabr.sharepoint.com/:b:/s/2026-1ProjetodeBancodeDados480/IQBIaE2gEwkNS4KPW7QFrOA_AXXyAwS9wfT8Gl72k2DtT-E?e=EeJ3P3
+PROVA: [link](https://unifrabr.sharepoint.com/:b:/s/2026-1ProjetodeBancodeDados480/IQBIaE2gEwkNS4KPW7QFrOA_AXXyAwS9wfT8Gl72k2DtT-E?e=EeJ3P3)
 
 
 
