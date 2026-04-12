@@ -35,7 +35,7 @@ MODELO CONCEITUAL
 MODELO LÓGICO
 - traduz o modelo conceitual para estruturas mais próximas do banco relacional
 - tabela, atributos, chaves
-- transcrição das entidades em tabelas, nome de atributos mais relacionados com nomes de atributos no contexto de programação
+- transcrição das entidades em tabelas, nome de atributos mais relacionados com nomes de atributos no contexto da programação
   - destaca as chaves estrangeiras
     - é um atributo de uma tabela que visita outra tabela
     - para ser chave estrangeira, na tablea de origem ela precisa ser chave primária
