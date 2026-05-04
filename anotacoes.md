@@ -116,3 +116,7 @@ RELACIONAMENTO TERCIÁRIO
 
 - LER -> HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.
 - PROVA: [link](https://unifrabr.sharepoint.com/:b:/s/2026-1ProjetodeBancodeDados480/IQBIaE2gEwkNS4KPW7QFrOA_AXXyAwS9wfT8Gl72k2DtT-E?e=EeJ3P3)
+
+---
+
+No SQl, em uma relação mtos pra mtos, onde q a tabela da relação possui mais de uma chave primária (q puxa das outras tabelas q compõe a relação), é ideal criar uma chave primaria dentro dessa tabela e desbindar o PK das outras chaves. Dessa maneira tem mais organização. O BO vai pro front
