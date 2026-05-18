@@ -108,10 +108,26 @@ RELACIONAMENTO TERCIÁRIO
 ---
 
 ## MySQL WorkBench
+<pre>
 - Gestão de Modelos (DIAGRAMA)
 - Gerar Scrips SQL
 - Gerar esquema de Banco de Dados
 
+Ver status do mysql: sudo systemctl status mysql
+Ativar mysql: sudo systemctl start mysql
+Desativar mysql: sudo systemctl stop mysql
+senha: 1234
+
+SELECT - FROM - WHERE
+- ORDER BY
+- HAVING
+- SWAP BY
+
+CTRL + ALT + DEL
+GERECIADOR DE TAREFAS 
+PESQUISA MYSQL -> INICIA
+  
+</pre>
 ---
 
 - LER -> HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.
