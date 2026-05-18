@@ -123,6 +123,8 @@ SELECT - FROM - WHERE
 - HAVING
 - SWAP BY
 
+CTRL + ENTER = Roda o selecionado
+
 CTRL + ALT + DEL
 GERECIADOR DE TAREFAS 
 PESQUISA MYSQL -> INICIA
@@ -136,3 +138,9 @@ PESQUISA MYSQL -> INICIA
 ---
 
 No SQl, em uma relação mtos pra mtos, onde q a tabela da relação possui mais de uma chave primária (q puxa das outras tabelas q compõe a relação), é ideal criar uma chave primaria dentro dessa tabela e desbindar o PK das outras chaves. Dessa maneira tem mais organização. O BO vai pro front
+
+s3schools
+sqlbolt
+
+plano/produto cartesiano (Livro.idGenero = Genero.idGenero) 
+
