@@ -1,9 +1,10 @@
 Aluno: Allan S. Garcia
 
 1) Qual o papel do SQL em banco de dados relacionais?
-Ajudar na organização e manipulação do banco de dados. 
+Ajudar na organização e manipulação do banco de dados. Definindo as tabelas, colunas, chaves e seus tipos.
 
 2) Qual a diferença entre comandos DML e DDL?
+DDL (Data Definion Language) é a parte da construção do banco (database) -> create, drop, ..., ja o DML (Data Manipulation Language) é a parte de manipulação do banco de dados -> select, insert, update, delete.
 
 CONSULTAS
 
