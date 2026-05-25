@@ -13,8 +13,8 @@ CONSULTAS
 select distinct Autor.nome
 from Autor, Livro_Autor, Livro, Genero
 where Autor.idAutor = Livro_Autor.idAutor and
-		  Livro_Autor.idLivro = Livro.idLivro and
-		  Livro.idGenero = Genero.idGenero and
+	  Livro_Autor.idLivro = Livro.idLivro and
+	  Livro.idGenero = Genero.idGenero and
       Genero.descricao = 'Infantil';
 
 Saída:
