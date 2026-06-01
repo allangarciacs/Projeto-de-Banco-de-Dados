@@ -130,8 +130,9 @@ GERECIADOR DE TAREFAS
 PESQUISA MYSQL -> INICIA
   
 </pre>
----
 
+---
+- Em um contexto profissional, usa-se o SQLserver ao ínves de mySQL
 - LER -> HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.
 - PROVA: [link](https://unifrabr.sharepoint.com/:b:/s/2026-1ProjetodeBancodeDados480/IQBIaE2gEwkNS4KPW7QFrOA_AXXyAwS9wfT8Gl72k2DtT-E?e=EeJ3P3)
 
@@ -143,4 +144,43 @@ s3schools
 sqlbolt
 
 plano/produto cartesiano (Livro.idGenero = Genero.idGenero) 
+
+#98BFDA
+#FEDE58
+#98D8A5
+#FE9898
+#FE98FE
+#FFFFFF
+
+## Eplicação Prova 2
+<pre>
+1) Liste todos os autores que escrevem livros do gênero Infantil.
+
+select distinct Autor.nome, Livro.titulo
+from Autor, Livro_Autor, Livro, Genero
+where Autor.idAutor = Livro_Autor.idAutor and
+	    Livro_Autor.idLivro = Livro.idLivro and -- conecta a tabela livro_autor c livro 
+	    Livro.idGenero = Genero.idGenero 	  and -- a partir da variavel q se repete 
+      Genero.descricao = 'Infantil';
+
+SAÍDA:
+nome
+Pedro
+Francisco
+Felipe
+Maria
+
+EXPLICAÇÃO:
+É preciso conectar as tabelas utulizadas, para fazer isso iguala-se a variável que se repete nelas,
+(descobre-se a partir da cardinalidade - onde esta o 'n' - 1..n, n..n, etc). Por exemplo em:
+Livro.idGenero = Genero.idGenero -- está conectando a tabela livro com a tabela genero, a partir da
+váriavel idGenero, que esta presente nas duas tabelas, como mostra a cardinalidade:  
+</pre>
+<img width="740" height="181" alt="image" src="https://github.com/user-attachments/assets/d5a47ccd-1056-4a84-be97-c88aa98c2c11" />
+<pre>
+Ou seja, como o 'n' está para genero, é o genero que visita livro, logo, será a variável idGenero
+que estará nas duas tabelas  
+</pre>
+
+
 
