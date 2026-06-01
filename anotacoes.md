@@ -180,6 +180,13 @@ váriavel idGenero, que esta presente nas duas tabelas, como mostra a cardinalid
 <pre>
 Ou seja, como o 'n' está para genero, é o genero que visita livro, logo, será a variável idGenero
 que estará nas duas tabelas  
+
+DICA: 
+No 'where', iniciar com a especificação da busca, depois colocar o produto cartesiano, dessa maneira,
+a busca será reduzida (menos memória mais velocidade etc). Exemplo:
+ORIGINAL: 									 	IDEAL:
+where Livro.idGenero = Genero.idGenero and		where Genero.descricao = 'Infantil' and
+	  Genero.descricao = 'Infantil';			      Livro.idGenero = Genero.idGenero;
 </pre>
 
 
