@@ -106,6 +106,14 @@ RELACIONAMENTO TERCIÁRIO
 </pre>
 
 ---
+## Banco de Dados Relacional
+<pre>
+Banco de Dados relacional é quando as tabelas do banco relacionam-se entre si com chave primária e estrangeira
+	- para uma chave ser estrangeira, ela deve ser chave primária em outra tabela
+	- No SQl, em uma relação mtos pra mtos, onde a tabela da relação possui mais de uma chave primária (q puxa das outras
+	tabelas q compõe a relação), é ideal criar uma chave primária dentro dessa tabela e desbindar o PK das outras chaves.
+	Assim há mais organização. O BO vai pro front
+</pre>
 
 ## MySQL WorkBench
 <pre>
@@ -131,26 +139,14 @@ PESQUISA MYSQL -> INICIA
   
 </pre>
 
----
+## Anotações
+<pre>
 - Em um contexto profissional, usa-se o SQLserver ao ínves de mySQL
 - LER -> HEUSER, C. A. Projeto de banco de dados. Porto Alegre: Saggra Luzzato, 2001.
-- PROVA: [link](https://unifrabr.sharepoint.com/:b:/s/2026-1ProjetodeBancodeDados480/IQBIaE2gEwkNS4KPW7QFrOA_AXXyAwS9wfT8Gl72k2DtT-E?e=EeJ3P3)
-
----
-
-No SQl, em uma relação mtos pra mtos, onde q a tabela da relação possui mais de uma chave primária (q puxa das outras tabelas q compõe a relação), é ideal criar uma chave primaria dentro dessa tabela e desbindar o PK das outras chaves. Dessa maneira tem mais organização. O BO vai pro front
-
-s3schools
-sqlbolt
-
-plano/produto cartesiano (Livro.idGenero = Genero.idGenero) 
-
-#98BFDA
-#FEDE58
-#98D8A5
-#FE9898
-#FE98FE
-#FFFFFF
+- s3schools
+- sqlbolt
+- escalabilidade vertical e horizontal
+</pre>
 
 ## Eplicação Prova 2
 <pre>
@@ -187,6 +183,12 @@ a busca será reduzida (menos memória mais velocidade etc). Exemplo:
 ORIGINAL: 									 	IDEAL:
 where Livro.idGenero = Genero.idGenero and		where Genero.descricao = 'Infantil' and
 	  Genero.descricao = 'Infantil';			      Livro.idGenero = Genero.idGenero;
+</pre>
+
+## sql Server
+<pre>
+
+	
 </pre>
 
 
